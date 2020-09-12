@@ -9,12 +9,6 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     </head>
     <body style="padding: 20px">
-        <form action="/JavaWeb0829/servlet/bmi">
-            姓名: <input type="text" name="name"><p/>
-            身高: <input type="number" name="h"><p/>
-            體重: <input type="number" name="w"><p/>
-            <input type="submit" value="計算">
-        </form>
         
         <form class="pure-form pure-form-aligned" action="/JavaWeb0829/servlet/bmi" method="post">
             <fieldset>
