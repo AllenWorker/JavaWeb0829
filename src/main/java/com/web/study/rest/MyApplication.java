@@ -6,6 +6,7 @@
 package com.web.study.rest;
 
 import com.web.student.service.StudentService;
+import com.web.study.rest.jpa_mango.service.MangoService;
 import com.web.study.rest.lotto.LottoService;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -32,6 +33,7 @@ public class MyApplication extends Application{
         objects.add(new CountSingletonService());
         objects.add(new LottoService());
         objects.add(new StudentService());
+        objects.add(new MangoService());
         return objects;
     }
 
